@@ -37,7 +37,7 @@ export default function NiyantranLanding() {
   const role = roles[roleIndex]
   return <main className="landing-shell landing-v2">
     <nav className="landing-nav" aria-label="Main navigation">
-      <Link href="/" className="landing-brand"><span className="landing-mark">N</span><span><strong>niyantran</strong><small>AICTE CONTROL LAYER</small></span></Link>
+      <Link href="/" className="landing-brand"><img className="landing-logo-image" src="/niyantran-mark.svg" alt="" width={30} height={30} /><span><strong>niyantran</strong><small>AICTE CONTROL LAYER</small></span></Link>
       <div className={'landing-links ' + (menuOpen ? 'is-open' : '')}>
         <a href="#capabilities" onClick={() => setMenuOpen(false)}>Capabilities</a>
         <a href="#workflow" onClick={() => setMenuOpen(false)}>How it works</a>
@@ -60,7 +60,7 @@ export default function NiyantranLanding() {
         <div className="mini-window">
           <div className="mini-top"><div className="mini-dots"><i/><i/><i/></div><span>niyantran / overview</span><span className="mini-live"><b/> DEMO DATA</span></div>
           <div className="mini-body">
-            <div className="mini-sidebar"><div className="mini-logo">N</div><span className="mini-active"/><span/><span/><span/><span/><span className="mini-last"/></div>
+            <div className="mini-sidebar"><div className="mini-logo"><img src="/niyantran-mark.svg" alt="Niyantran" width={20} height={20}/></div><span className="mini-active"/><span/><span/><span/><span/><span className="mini-last"/></div>
             <div className="mini-content">
               <div className="mini-heading"><div><small>APPROVAL OPERATIONS · ILLUSTRATIVE</small><h3>Overview</h3><p>Everything requiring attention, at a glance.</p></div><span className="landing-mini-label">Demo preview</span></div>
               <div className="mini-kpis"><div><small>ACTIVE APPLICATIONS</small><strong>1,284</strong><b>Sample data</b></div><div><small>PENDING SCRUTINY</small><strong>186</strong><b>24 due this week</b></div><div><small>DEADLINE RISK</small><strong>42</strong><b className="warn">12 urgent</b></div></div>
