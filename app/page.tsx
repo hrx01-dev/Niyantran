@@ -1,5 +1,6 @@
-import NiyantranDashboard from '@/components/niyantran-dashboard'
+import '@/app/landing.css'
+import NiyantranLanding from '@/components/niyantran-landing'
 
 export default function Page() {
-  return <NiyantranDashboard />
+  return <NiyantranLanding />
 }
