@@ -72,7 +72,7 @@ export default function NiyantranDashboard() {
   return (
     <div className="niyantran-shell">
       <aside className={`sidebar ${collapsed ? 'collapsed' : ''}`}>
-        <div className="brand"><div className="brand-mark">N</div>{!collapsed && <div><strong>niyantran</strong><span>AICTE CONTROL LAYER</span></div>}</div>
+        <div className="brand"><div className="brand-mark"><img src="/niyantran-mark.svg" alt="Niyantran" width={28} height={28}/></div>{!collapsed && <div><strong>niyantran</strong><span>AICTE CONTROL LAYER</span></div>}</div>
         <div className="workspace"><span className="workspace-dot" />{!collapsed && <><span>AICTE · Production</span><ChevronDown size={14} /></>}</div>
         <nav className="nav-list" aria-label="Primary navigation">
           {!collapsed && <div className="nav-label">WORKSPACE</div>}
