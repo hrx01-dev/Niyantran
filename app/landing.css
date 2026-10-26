@@ -129,3 +129,8 @@
  .landing-governance-grid article{min-height:150px}
  .landing-v2 .landing-cta{padding:75px 16px}
 }
+
+/* Brand icon integration */
+.landing-v2 .landing-logo-image{display:block;width:30px;height:30px;object-fit:contain;flex-shrink:0}
+.landing-v2 .mini-logo{background:transparent;width:23px;height:23px;margin-bottom:4px}
+.landing-v2 .mini-logo img{width:23px;height:23px;display:block}
